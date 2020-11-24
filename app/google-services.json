@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "138221362541",
+    "firebase_url": "https://app-canifa-645f8.firebaseio.com",
+    "project_id": "app-canifa-645f8",
+    "storage_bucket": "app-canifa-645f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138221362541:android:895056f281dabaab280e64",
+        "android_client_info": {
+          "package_name": "com.example.appcanifa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138221362541-s8uui1vdvm4f9rt7d4hahq23an0is8dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwdzQNrJTX7g0p30C7-qGdqhV7_MHAggY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138221362541-s8uui1vdvm4f9rt7d4hahq23an0is8dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
