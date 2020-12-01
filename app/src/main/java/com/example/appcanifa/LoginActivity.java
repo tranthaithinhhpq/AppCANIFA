@@ -111,9 +111,9 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if (snapshot.child(parentDbName) .child(phone).exists()){
-                    Users usersData = snapshot.child(parentDbName).child(phone).getValue(Users.class);
-                    if (usersData.getPhone().equals(phone)){
-                        if (usersData.getPassword().equals(password)){
+                    Users UsersData = snapshot.child(parentDbName).child(phone).getValue(Users.class);
+                    if (UsersData.getPhone().equals(phone)){
+                        if (UsersData.getPassword().equals(password)){
                             if (parentDbName.equals("Admins")){
                                 Toast.makeText(LoginActivity.this, "Welcome Admin,logged in successfully...", Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
@@ -127,7 +127,6 @@ public class LoginActivity extends AppCompatActivity {
                                 loadingBar.dismiss();
 
                                 Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
-                                Prevalent.currentOnlineUser = usersData;
                                 startActivity(intent);
 
                             }
